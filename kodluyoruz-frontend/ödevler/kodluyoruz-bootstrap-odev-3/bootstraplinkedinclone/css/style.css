@@ -1,0 +1,326 @@
+.body {
+  background-color: #f3f2ef;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+i {
+  color: gray;
+  margin-top: 0;
+}
+
+i:hover {
+  color: black;
+}
+
+.color-primary {
+  color: #0a66c2;
+}
+
+.color-secondary {
+  color: #5f5f5f;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.color-grayish {
+  color: #474747;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-family-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-family-system {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.cursor-point {
+  cursor: pointer;
+}
+
+.icon-font-size {
+  font-size: 1.2rem;
+}
+
+.border-rad-50 {
+  border-radius: 50px !important;
+}
+
+.left-panel-width {
+  width: 17rem;
+}
+
+.right-panel-width {
+  width: 17rem;
+}
+
+/* Navbar */
+
+.navbarbg {
+  height: 55px;
+}
+
+.linkedin-logo i {
+  font-size: 2.4rem;
+}
+
+.linkedin-logo i:hover {
+  color: #0a66c2;
+}
+
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  text-indent: 20px;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 7%;
+}
+
+.homepage,
+.homepage-icon {
+  color: black;
+}
+
+.nav-item:hover,
+.nav-item div:hover {
+  color: black;
+}
+
+.navbar-photo-me {
+  height: 20px;
+  width: 20px;
+}
+
+/* Sol Panel */
+
+.row {
+  margin-top: 12vh;
+}
+
+.left-panel-background-img {
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+  height: 53px;
+}
+
+.profile-img {
+  border: 2px solid #fff;
+  width: 70px;
+  height: 70px;
+}
+
+.linkedin-link,
+.linkedin-link:hover {
+  color: #212529;
+}
+
+.card-job {
+  line-height: 1.4;
+}
+
+.card-header-sayfalarim {
+  font-size: 1.4rem;
+}
+
+.sayfalarim-img img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Hashtag */
+
+.sticky-top {
+  overflow: visible;
+  top: 4rem !important;
+}
+
+.card-plus-sign {
+  font-size: 23px;
+}
+
+/* Orta Panel */
+
+.fotograf path {
+  fill: #70b5f9;
+}
+
+.video path {
+  fill: #7fc15e;
+}
+
+.etkinlik path {
+  fill: #e7a33e;
+}
+
+.yazi path {
+  fill: #f5987e;
+}
+
+/* Post */
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+  text-indent: 35px;
+}
+
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 5px;
+}
+
+.postphoto,
+.brandphoto {
+  width: 50px;
+  height: 50px;
+}
+
+.post-name-link,
+.post-name-link:hover {
+  color: #212529;
+}
+
+.post-explanation {
+  color: black;
+}
+
+/* Footer */
+
+.footer-nav {
+  width: 300px;
+  height: 50px;
+  position: -webkit-sticky;
+  border-radius: 5px;
+  right: 15px;
+}
+
+.footer-nav .navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .left-panel-width {
+    width: 14rem;
+  }
+
+  .right-panel-width {
+    width: 14.5rem;
+  }
+
+  .right-panel-width button {
+    font-size: 14px !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .btn {
+    padding: 4px 8px !important ;
+  }
+
+  .footer-nav {
+    max-width: 250px;
+  }
+
+  ol {
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .right-panel-width {
+    width: 28rem;
+  }
+
+  input.searche {
+    width: 150px !important;
+  }
+
+  .navbar-nav {
+    background: #0a66c2;
+    align-items: center;
+  }
+
+  .navbar-nav li {
+    margin-right: 0 !important;
+  }
+
+  .navbar-nav div {
+    color: white;
+  }
+
+  .navbar-nav li a i {
+    color: black;
+  }
+
+  .me,
+  .business,
+  .business-advertisement {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-panel-width {
+    width: 31.9rem;
+  }
+
+  .right-panel-width {
+    width: 31.9rem;
+  }
+
+  input.searche {
+    width: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .left-panel-width {
+    width: auto;
+  }
+
+  .right-panel-width {
+    width: auto;
+  }
+
+  input.searche {
+    width: 150px;
+  }
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  display: block;
+}
+
+.width-container {
+  width: 90vw;
+  margin: auto;
+}
+
+.logo {
+  margin-top: 10vh;
+}
+
+.search {
+  background-color: #eeeeee;
+  margin-bottom: 2px;
+}
+
+.search input {
+  display: block;
+  width: 25vw;
+  margin: auto;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-links {
+  width: 30vw;
+  background-color: #7ee5da;
+  margin-right: 2px;
+}
+
+.other-links {
+  width: 20vw;
+  background-color: #70ccc2;
+  margin-right: 2px;
+}
+
+.updates {
+  width: 40vw;
+  background-color: #62b3aa;
+}
+
+.updates input {
+  display: block;
+  text-align: left;
+  margin: auto;
+}
+
+.updates button {
+  margin-right: 1vw;
+}
+
+.archive {
+  display: inline;
+}
+
+.copyright {
+  margin-top: 4vh;
+}

@@ -1,0 +1,58 @@
+body {
+  background-color: #e9ecef;
+}
+
+/* index.html */
+
+.lead a {
+  text-decoration: none;
+}
+
+.jumbotron ul {
+  display: inline-block;
+}
+
+/* about-us.html */
+
+#about-us {
+  background-color: #e9ecef;
+  padding-bottom: 5vh;
+}
+
+.card {
+  background-color: #e9ecef;
+  border: none;
+}
+
+.card h1 {
+  font-size: 3rem;
+}
+
+/* products.html */
+
+.container h1 {
+  font-size: 3rem;
+  margin: 1vh 0;
+}
+
+.btn-secondary {
+  padding: 3px 6px;
+  font-size: 14px;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+.card-body {
+  padding: 0 1.25rem;
+}
+
+.card-footer {
+  padding: 0.5rem 1.25rem;
+  border-top: 0;
+}
