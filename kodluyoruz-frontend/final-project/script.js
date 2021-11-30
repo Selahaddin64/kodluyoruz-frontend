@@ -9,7 +9,7 @@ addBtn.addEventListener('click', function () {
 	let notesString = localStorage.getItem('notes');
 
 	if (addNote.value == "") {
-		alert("Lütfen not ekleme kısmını boş bırakmayın");
+		alert("Please do not leave the note section blank.");
 	}
 	else {
 		if (notesString == null) {
